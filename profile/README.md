@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./MULAYM LOGO-05-min.svg">
-  <img alt="Mulyam Agronomics" src="./MULAYM LOGO-05-min.svg" width="380">
+  <source media="(prefers-color-scheme: dark)" srcset="./MULAYM LOGO-02.svg">
+  <img alt="Mulyam Agronomics" src="./MULAYM LOGO-02.svg" width="380">
 </picture>
 
 <br><br>
