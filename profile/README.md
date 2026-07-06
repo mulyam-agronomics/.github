@@ -1,9 +1,18 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./MULAYM LOGO-02.svg">
-  <img alt="Mulyam Agronomics" src="./MULAYM LOGO-02.svg" width="380">
+  <source media="(prefers-color-scheme: dark)" srcset="./Mulyam_logo.svg">
+  <img alt="Mulyam Agronomics" src="./Mulyam_logo.svg" width="380">
 </picture>
+<!-- Method 1: Using the align attribute (Highly recommended for GitHub READMEs) -->
+<p align="center">This text is centered.</p>
+<h2 align="center">MULYAM AGRONOMICS PVT LTD</h2>
+
+<!-- Method 2: Using inline CSS styles -->
+<p style="text-align: center;">TMULYAM AGRONOMICS PVT LTD</p>
+
+<!-- Method 3: Using the legacy <center> tag (Deprecated, but widely supported) -->
+<center>MULYAM AGRONOMICS PVT LTD</center>
 
 <br><br>
 
