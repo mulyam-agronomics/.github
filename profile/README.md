@@ -1,6 +1,11 @@
 <div align="center">
 
-# Mulyam Agronomics
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="MULYAM LOGO-02.svg">
+  <img alt="Mulyam Agronomics" src="MULYAM LOGO-05-min.svg" width="380">
+</picture>
+
+<br><br>
 
 ### The supply-chain backbone for India's fresh-produce economy
 
