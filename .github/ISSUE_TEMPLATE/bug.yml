@@ -1,0 +1,50 @@
+name: Bug
+description: Something is broken or behaves differently from what was agreed.
+title: ""
+type: Bug
+projects: ["mulyam-agronomics/5"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - "P0 — production down / data loss / blocks a release"
+        - "P1 — wrong result for users, workaround exists"
+        - "P2 — cosmetic or minor"
+      default: 2
+    validations:
+      required: true
+
+  - type: input
+    id: env
+    attributes:
+      label: Where
+      description: URL, environment (prod / staging / local), device or browser, app version.
+    validations:
+      required: false
