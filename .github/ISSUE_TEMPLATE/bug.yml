@@ -1,6 +1,5 @@
 name: Bug
 description: Something is broken or behaves differently from what was agreed.
-title: ""
 type: Bug
 projects: ["mulyam-agronomics/5"]
 body:

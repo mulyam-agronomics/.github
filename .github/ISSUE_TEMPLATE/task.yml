@@ -1,6 +1,5 @@
 name: Task
 description: A unit of planned work — goes straight onto Mulyam Roadmap.
-title: ""
 type: Task
 projects: ["mulyam-agronomics/5"]
 body:

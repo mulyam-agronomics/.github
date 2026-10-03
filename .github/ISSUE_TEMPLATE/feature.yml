@@ -1,6 +1,5 @@
 name: Feature / Initiative
 description: A capability or goal that will be delivered as several tasks, possibly across repos.
-title: ""
 type: Feature
 projects: ["mulyam-agronomics/5"]
 body:
