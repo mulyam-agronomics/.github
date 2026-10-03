@@ -1,4 +1,4 @@
-name: Feature / Initiative
+name: Feature
 description: A capability or goal that will be delivered as several tasks, possibly across repos.
 type: Feature
 projects: ["mulyam-agronomics/5"]
@@ -30,7 +30,7 @@ body:
     attributes:
       label: Target date
       description: Also set it in the **Target date** field on the board.
-      placeholder: 2026-11-30
+      placeholder: "2026-11-30"
     validations:
       required: false
 
