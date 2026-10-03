@@ -1,0 +1,36 @@
+name: Task
+description: A unit of planned work — goes straight onto Mulyam Roadmap.
+title: ""
+type: Task
+projects: ["mulyam-agronomics/5"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        One task, one PR. Keep it small enough to finish inside the current 2-week iteration.
+        After creating it: set **Product** (and Priority if it is not P2) on the board.
+
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome
+      description: What is true when this is done? One or two sentences.
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes / approach
+      description: Links, constraints, how you plan to do it. Optional.
+    validations:
+      required: false
+
+  - type: input
+    id: parent
+    attributes:
+      label: Part of (initiative / feature)
+      description: Paste the parent Feature issue URL if this belongs to a bigger piece of work. The lead will link it as a sub-issue.
+      placeholder: https://github.com/mulyam-agronomics/<repo>/issues/<n>
+    validations:
+      required: false

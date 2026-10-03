@@ -1,0 +1,43 @@
+name: Feature / Initiative
+description: A capability or goal that will be delivered as several tasks, possibly across repos.
+title: ""
+type: Feature
+projects: ["mulyam-agronomics/5"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Features are what executives see on the **Executive** roadmap view. Write the title the way you
+        would say it to the CEO. Break it into Tasks as sub-issues; GitHub shows % complete automatically.
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: The user or business problem, in two or three sentences.
+    validations:
+      required: true
+
+  - type: textarea
+    id: done
+    attributes:
+      label: Done means
+      description: Observable outcomes, not a task list. Bullets are fine.
+    validations:
+      required: true
+
+  - type: input
+    id: target
+    attributes:
+      label: Target date
+      description: Also set it in the **Target date** field on the board.
+      placeholder: 2026-11-30
+    validations:
+      required: false
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Out of scope
+    validations:
+      required: false
